@@ -1,0 +1,206 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* The body is an element selector, changing the background to the colour white */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Sets the font family, back ground color and font color for the HEADER (class selector)  */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Makes the header h1, fit side by side using the inline-block command */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* This is applying a colour to the letters seo in the HEADER */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Makes the navigation bar on the right hand side of the header, with certain font and size */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* This removes the bullet points */
+.header div ul {
+    list-style-type: none;
+}
+/* This makes the links side by side rather than stacked */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Makes all links font white */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Adjusts the size of text in p element */
+p {
+    font-size: 16px;
+}
+/* A class selector that inserts an image modified to fit the width of the screen*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Has image float to the left side of the page to fit along with text */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Has image float to the right side of the page to fit along with text */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* The size of the blue boxes and how it is positioned on the page  */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Creates side bar on the side */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* For the Lead generation on the side bar adds colour and margin to the bottom */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* For the brand awareness on the side bar it adds colour and margin to the bottom */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* For the cost management on the side bar it adds colour and margin to the bottom */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Centers the Lead Generation title */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Centers the brand awareness title */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Centers the cost management title */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Makes the image into block format so it falls underneath the title*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Makes the image into block format so it falls underneath the title*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Makes the image into block format so it falls underneath the title*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Coloring, font, and box stlying for search engine optimization class */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Coloring, font, and box stlying for search online reputation management class */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Coloring, font, and box stlying for social media marketing class */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Determines how large an image can get */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Determines how large an image can get */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Determines how large an image can get */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* font and margin for the title being applied  */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* font and margin for the title being applied  */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* font and margin for the title being applied  */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* applies box styling, font styling to footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* changes the font size for h2 */
+.footer h2 {
+    font-size: 20px;
+}
